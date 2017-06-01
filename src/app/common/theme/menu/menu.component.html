@@ -1,0 +1,30 @@
+<aside class="main-sidebar menu">
+
+  <!-- sidebar: style can be found in sidebar.less -->
+  <section class="sidebar">
+
+    <!-- Sidebar user panel (optional) -->
+    <div class="user-panel">
+      <div class="image">
+        <img src="assets/img/author.jpg" class="img-circle" alt="User Image">
+      </div>
+      <div class="info">
+        <p>Alexander Pierce</p>
+        <!-- Status -->
+        <a href="#"><i class="fa fa-circle text-success"></i> Online</a>
+      </div>
+    </div>
+
+    <!-- Sidebar Menu -->
+    <ul class="sidebar-menu tree" data-widget="tree">
+      <li class="active" *ngFor="let menu of menus">
+        <a>
+          <i class="iconfont" [ngClass]="menu.icon"></i>
+          <span class="marginLeft">{{menu.name}}</span>
+        </a>
+      </li>
+    </ul>
+    <!-- /.sidebar-menu -->
+  </section>
+  <!-- /.sidebar -->
+</aside>

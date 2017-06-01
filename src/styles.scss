@@ -1,0 +1,228 @@
+/* You can add global styles to this file, and also import other style files */
+/*font-face*/
+@font-face {
+  font-family: "iconfont";
+  src: url('./assets/fonts/iconfont.eot?t=1495682474274');
+  /* IE9*/
+  src:url('./assets/fonts/iconfont.eot?t=1495682474274#iefix') format('embedded-opentype'),
+  /* IE6-IE8 */
+  url('./assets/fonts/iconfont.woff?t=1495682474274') format('woff'),
+  /* chrome, firefox */
+  url('./assets/fonts/iconfont.ttf?t=1495682474274') format('truetype'),
+  /* chrome, firefox, opera, Safari, Android, iOS 4.2+*/
+  url( './assets/fonts/iconfont.svg?t=1495682474274#iconfont') format('svg');
+  /* iOS 4.1- */
+}
+
+.iconfont {
+  font-family: "iconfont" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-search:before {
+  content: "\e616";
+}
+
+.icon-star:before {
+  content: "\e667";
+}
+
+.icon-delete:before {
+  content: "\e612";
+}
+
+.icon-up:before {
+  content: "\e611";
+}
+
+.icon-home:before {
+  content: "\e600";
+}
+
+.icon-icangleupdown:before {
+  content: "\e624";
+}
+
+.icon-refresh:before {
+  content: "\e831";
+}
+
+.icon-write:before {
+  content: "\e643";
+}
+
+.icon-replyall:before {
+  content: "\e615";
+}
+
+.icon-email:before {
+  content: "\e6bf";
+}
+
+.icon-edit:before {
+  content: "\e6c6";
+}
+
+.icon-add:before {
+  content: "\e660";
+}
+
+.icon-title:before {
+  content: "\e625";
+}
+
+.icon-personaldata:before {
+  content: "\e669";
+}
+
+.icon-1:before {
+  content: "\e603";
+}
+
+.icon-key:before {
+  content: "\e784";
+}
+
+.icon-iconuser:before {
+  content: "\e63c";
+}
+
+.icon-statistics:before {
+  content: "\e608";
+}
+
+.icon-batch:before {
+  content: "\e605";
+}
+
+.icon-fire:before {
+  content: "\e6f7";
+}
+
+.icon-label:before {
+  content: "\e626";
+}
+
+.icon-noticetongzhi:before {
+  content: "\e647";
+}
+
+.icon-navigation:before {
+  content: "\e64e";
+}
+
+.icon-tool:before {
+  content: "\e71f";
+}
+
+.icon-confirm:before {
+  content: "\e6c7";
+}
+
+.icon-upload:before {
+  content: "\e674";
+}
+
+.icon-weibiaoti-4:before {
+  content: "\e671";
+}
+
+.icon-comment:before {
+  content: "\e60f";
+}
+
+.icon-Setup:before {
+  content: "\e74d";
+}
+
+.icon-storage:before {
+  content: "\e756";
+}
+
+.icon-article:before {
+  content: "\e601";
+}
+
+.icon-baobiao:before {
+  content: "\e610";
+}
+
+.icon-store_classification_no:before {
+  content: "\e693";
+}
+
+.icon-sd-storage:before {
+  content: "\e7b3";
+}
+
+.icon-cd-personal:before {
+  content: "\e6bd";
+}
+/**
+ * 自定义部分
+ */
+blockquote,
+body,
+button,
+dd,
+dl,
+dt,
+fieldset,
+form,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+hr,
+input,
+legend,
+li,
+ol,
+p,
+pre,
+td,
+textarea,
+th,
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+body,
+html {
+  width: 100%;
+  height: 100%!important;
+  font-size: 14px;
+  overflow: hidden;
+}
+
+.wrapperHeight {
+  width: 100%;
+  height: auto;
+  min-height: 100%;
+  position: relative;
+  color: #fff;
+  #particles-js {
+    width: 100%;
+    min-height: 100%;
+    background-color: #10151e;
+    position: absolute;
+    display: block;
+    top: 0;
+    left: 0;
+    z-index: -1;
+  }
+}
+/**
+ * 引进其他css样式
+ */
+@import "../node_modules/bootstrap/dist/css/bootstrap.min.css";
+@import "../node_modules/admin-lte/dist/css/AdminLTE.min.css";
+@import "../node_modules/admin-lte/plugins/select2/select2.min.css"; // @import "../node_modules/admin-lte/dist/css/skins/_all-skins.min.css";
+@import "~https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.5.0/css/font-awesome.min.css";
+@import "~https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css";

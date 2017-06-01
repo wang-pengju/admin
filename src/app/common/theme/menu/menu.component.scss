@@ -1,0 +1,47 @@
+.menu {
+  width: 226px;
+  background-color: rgba(35, 40, 45, 0.6);
+  min-height: -moz-calc(100% - 54px);
+  min-height: -webkit-calc(100% - 54px);
+  min-height: calc(100% - 54px);
+  top: 54px;
+
+  .user-panel {
+    height: 220px;
+    text-align: center;
+    line-height: 150px;
+
+    .image {
+      height: 150px;
+
+      img {
+        max-width: 150px;
+        height: auto;
+        transition: all 4s;
+
+        &:hover {
+          transform: rotate(1440deg);
+        }
+      }
+    }
+
+    .info {
+      height: 50px;
+    }
+  }
+
+  .sidebar-menu {
+    a {
+      width: 70%;
+      border-bottom: 1px solid rgba(255,255,255,0.2);
+      font-size: 16px;
+      color: #fff;
+      padding: 30px 30px 30px 15px;
+      margin: 0 auto;
+    }
+
+    .marginLeft {
+      margin-left: 30px;
+    }
+  }
+}

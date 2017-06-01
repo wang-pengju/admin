@@ -1,0 +1,87 @@
+
+@font-face {font-family: "iconfont";
+  src: url('iconfont.eot?t=1495682474274'); /* IE9*/
+  src: url('iconfont.eot?t=1495682474274#iefix') format('embedded-opentype'), /* IE6-IE8 */
+  url('iconfont.woff?t=1495682474274') format('woff'), /* chrome, firefox */
+  url('iconfont.ttf?t=1495682474274') format('truetype'), /* chrome, firefox, opera, Safari, Android, iOS 4.2+*/
+  url('iconfont.svg?t=1495682474274#iconfont') format('svg'); /* iOS 4.1- */
+}
+
+.iconfont {
+  font-family:"iconfont" !important;
+  font-size:16px;
+  font-style:normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-search:before { content: "\e616"; }
+
+.icon-star:before { content: "\e667"; }
+
+.icon-delete:before { content: "\e612"; }
+
+.icon-up:before { content: "\e611"; }
+
+.icon-home:before { content: "\e600"; }
+
+.icon-icangleupdown:before { content: "\e624"; }
+
+.icon-refresh:before { content: "\e831"; }
+
+.icon-write:before { content: "\e643"; }
+
+.icon-replyall:before { content: "\e615"; }
+
+.icon-email:before { content: "\e6bf"; }
+
+.icon-edit:before { content: "\e6c6"; }
+
+.icon-add:before { content: "\e660"; }
+
+.icon-title:before { content: "\e625"; }
+
+.icon-personaldata:before { content: "\e669"; }
+
+.icon-1:before { content: "\e603"; }
+
+.icon-key:before { content: "\e784"; }
+
+.icon-iconuser:before { content: "\e63c"; }
+
+.icon-statistics:before { content: "\e608"; }
+
+.icon-batch:before { content: "\e605"; }
+
+.icon-fire:before { content: "\e6f7"; }
+
+.icon-label:before { content: "\e626"; }
+
+.icon-noticetongzhi:before { content: "\e647"; }
+
+.icon-navigation:before { content: "\e64e"; }
+
+.icon-tool:before { content: "\e71f"; }
+
+.icon-confirm:before { content: "\e6c7"; }
+
+.icon-upload:before { content: "\e674"; }
+
+.icon-weibiaoti-4:before { content: "\e671"; }
+
+.icon-comment:before { content: "\e60f"; }
+
+.icon-Setup:before { content: "\e74d"; }
+
+.icon-storage:before { content: "\e756"; }
+
+.icon-article:before { content: "\e601"; }
+
+.icon-baobiao:before { content: "\e610"; }
+
+.icon-store_classification_no:before { content: "\e693"; }
+
+.icon-sd-storage:before { content: "\e7b3"; }
+
+.icon-cd-personal:before { content: "\e6bd"; }
+
