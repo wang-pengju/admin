@@ -17,8 +17,8 @@
 
     <!-- Sidebar Menu -->
     <ul class="sidebar-menu tree" data-widget="tree">
-      <li class="active" *ngFor="let menu of menus">
-        <a>
+      <li *ngFor="let menu of menus" (click)="addActive(menu)" [class.active]="currentMenuId == menu.id">
+        <a [routerLink]="menu.route">
           <i class="iconfont" [ngClass]="menu.icon"></i>
           <span class="marginLeft">{{menu.name}}</span>
         </a>

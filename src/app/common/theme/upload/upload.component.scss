@@ -1,0 +1,58 @@
+.drop-normal {
+  .drop {
+    border-radius: 4px;
+    text-align: center;
+    line-height: 80px;
+    height: 100px;
+    padding-top: 10px;
+    margin-bottom: 6px;
+    background-color: rgba(16,21,30,0.2);
+  }
+
+  .upload-wrap {
+    position: relative;
+    width: 100%;
+    height: 43px;
+    font-size: 16px;
+    border: 1px solid #32373c;
+    border-radius: 4px;
+    line-height: 43px;
+    margin: 0 auto;
+    text-align: center;
+
+    .upload-pic {
+      position: absolute;
+      top: 0;
+      left: 0;
+      font-size: 0;
+      width: 100%;
+      height: 100%;
+      outline: 0;
+      opacity: 0;
+      filter: alpha(opacity=0);
+      z-index: 1;
+      cursor: pointer;
+    }
+
+  }
+  .drop-tip,
+  .upload-text,
+  .icon-upload{
+    color: #555!important;
+  }
+  i,
+  span {
+    color: #555;
+  }
+  &:hover{
+    .drop-tip,
+    .upload-text,
+    .icon-upload{
+      color: #fff!important;
+    }
+    i,
+    span {
+      color: #fff;
+    }
+  }
+}

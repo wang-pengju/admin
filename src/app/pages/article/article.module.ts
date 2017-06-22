@@ -6,14 +6,16 @@ import { AllComponent } from './all/all.component';
 import { ClassifyComponent } from './classify/classify.component';
 import { LabelComponent } from './label/label.component';
 import { ReteaseComponent } from './retease/retease.component';
+import { UploadComponent } from '../../common/theme/upload/upload.component';
+import { MarkdownComponent } from '../../common/theme/markdown/markdown.component';
+import { FormComponent } from '../../common/theme/form/form.component';
+import { ModifyComponent } from './modify/modify.component';
 
 import { ArticleRoutingModule } from '../../routers/article-router.module';
-import { NavModule } from '../../common/theme/nav/nav.module';
 
 @NgModule({
   imports: [
     CommonModule,
-    NavModule,
     ArticleRoutingModule
   ],
   declarations: [
@@ -21,7 +23,11 @@ import { NavModule } from '../../common/theme/nav/nav.module';
     ClassifyComponent,
     LabelComponent,
     ReteaseComponent,
-    ArticleComponent
+    UploadComponent,
+    MarkdownComponent,
+    ArticleComponent,
+    ModifyComponent,
+    FormComponent
   ]
 })
 export class ArticleModule { }

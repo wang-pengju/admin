@@ -6,28 +6,32 @@ import { AllComponent } from '../pages/article/all/all.component';
 import { ClassifyComponent } from '../pages/article/classify/classify.component';
 import { LabelComponent } from '../pages/article/label/label.component';
 import { ReteaseComponent } from '../pages/article/retease/retease.component';
+import { ModifyComponent } from '../pages/article/modify/modify.component';
 
 export const articleRoutes: Routes = [
   {
-   path: 'article',
-   component: ArticleComponent,
-   children: [{
-     path: 'all',
-     component: AllComponent
-   },{
-     path: 'classify',
-     component: ClassifyComponent
-   },{
-     path: 'label',
-     component: LabelComponent
-   },{
-     path: 'retease',
-     component: ReteaseComponent
-   },{
-     path: '',
-     redirectTo: '/home/article/all',
-     pathMatch: 'full'
-   }]
+    path: 'article',
+    component: ArticleComponent,
+    children: [{
+      path: 'all',
+      component: AllComponent
+    }, {
+        path: 'all/:id',
+        component: ModifyComponent
+      }, {
+        path: 'classify',
+        component: ClassifyComponent
+      }, {
+        path: 'label',
+        component: LabelComponent
+      }, {
+        path: 'retease',
+        component: ReteaseComponent
+      }, {
+        path: '',
+        redirectTo: '/home/article/all',
+        pathMatch: 'full'
+      }]
   }
 ]
 
@@ -39,4 +43,4 @@ export const articleRoutes: Routes = [
     RouterModule
   ]
 })
-export class ArticleRoutingModule {}
+export class ArticleRoutingModule { }

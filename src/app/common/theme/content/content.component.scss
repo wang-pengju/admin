@@ -1,3 +1,41 @@
 .backgroundColor{
   background-color: rgba(35, 40, 45, 0.8);
+  .content-header{
+    background: rgba(35, 40, 45, 0.6);
+    .navbar{
+      margin-bottom: 0;
+      .navbar-brand{
+        color: #3c8dbc;
+        font-weight: 600;
+      }
+    }
+    a{
+      color: #fff;
+      i{
+        margin-right: 4px;
+      }
+      span{
+        vertical-align: top;
+      }
+    }
+    ol{
+      >li{
+        display: inline-block;
+        line-height: 50px;
+      }
+    }
+    .listshow{
+      a{
+        &:active,
+        &:focus{
+          background-color: transparent;
+        }
+        &:hover{
+          transform: scaleX(1.1);
+          background-color: inherit;
+          border-bottom:1px solid rgba(255, 255, 255, 0.2);
+        }
+      }
+    }
+  }
 }

@@ -10,14 +10,14 @@ import { AppRoutingModule } from './routers/app-router.module';
 /*引进子组件、子模块*/
 import { LoginComponent} from './pages/login/login.component';
 import { HomeModule } from './pages/home/home.module';
+/* 引进服务*/
+import { BlogService } from './common/service/blog.service';
 
-// import { MarkdownComponent } from './common/theme/markdown/markdown.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     LoginComponent
-    // MarkdownComponent
   ],
   imports: [
     BrowserModule,
@@ -27,7 +27,7 @@ import { HomeModule } from './pages/home/home.module';
     HomeModule,
     AppRoutingModule
   ],
-  providers: [],
+  providers: [BlogService],
   bootstrap: [AppComponent]
 })
 export class AppModule {}

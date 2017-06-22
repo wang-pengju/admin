@@ -1,0 +1,83 @@
+<section class="form-list">
+  <div class="row">
+    <form class="form-horizontal">
+      <!-- left start -->
+      <div class="box-body col-sm-6 left">
+        <div class="form-group">
+          <label for="inputTitle" class="col-sm-2 control-label">文章标题</label>
+          <div class="col-sm-10">
+            <input type="text" class="form-control" id="inputTitle" placeholder="请输入文章标题">
+          </div>
+        </div>
+        <div class="form-group">
+          <label for="inputKeyword" class="col-sm-2 control-label">文章关键词</label>
+          <div class="col-sm-10">
+            <input type="text" class="form-control" id="inputKeyword" placeholder="请输入文章关键词">
+          </div>
+        </div>
+        <div class="form-group">
+          <label for="inputDesc" class="col-sm-2 control-label">文章描述</label>
+          <div class="col-sm-10">
+            <textarea class="form-control testarea" id="inputDescribe" rows="8" placeholder="请输入文章描述"></textarea>
+          </div>
+        </div>
+        <div class="form-group">
+          <label for="inputDate" class="col-sm-2 control-label">上传时间</label>
+          <div class="col-sm-10">
+            <input type="date" class="form-control" id="inputDate" placeholder="请选择上传时间">
+          </div>
+        </div>
+      </div>
+      <!-- left end -->
+      <!-- right start -->
+      <div class="box-body col-sm-6 right">
+        <div class="form-group">
+          <label for="inputLabel" class="col-sm-2 control-label">文章标签</label>
+          <div class="col-sm-10">
+            <select class="form-control select2" multiple="multiple" data-placeholder="请选择文章标签" style="width: 100%;">
+              <option *ngFor="let option of options" >{{option.value}}</option>
+            </select>
+          </div>
+        </div>
+        <div class="form-group">
+          <label for="inputCatalog" class="col-sm-2 control-label">分类目录</label>
+          <div class="col-sm-10">
+            <select class="form-control" id="inputCatalog" style="width: 100%;">
+              <option value="Code" selected="selected">Code</option>
+              <option value="Think">Think</option>
+              <option value="Project">Project</option>
+            </select>
+          </div>
+        </div>
+        <div class="form-group">
+          <label for="inputFile" class="col-sm-2 control-label">缩略图</label>
+          <div class="col-sm-10">
+            <app-upload></app-upload>
+          </div>
+        </div>
+        <div class="form-group">
+          <label for="inputDate" class="col-sm-2 control-label">上传时间</label>
+          <div class="col-sm-10">
+            <div class="btn-group btn-group-justified" role="group" aria-label="...">
+              <div class="btn-group" role="group">
+                <button type="submit" class="btn btn-default">发布</button>
+              </div>
+              <div class="btn-group" role="group">
+                <button type="reset" class="btn btn-default pull-right">修改</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- right end -->
+      <div class="box-body col-sm-12 bottom">
+        <div class="form-group">
+          <label for="inputContent" class="col-sm-1 control-label">文章内容</label>
+          <div class="col-sm-11">
+            <app-markdown></app-markdown>
+          </div>
+        </div>
+      </div>
+    </form>
+  </div>
+</section>

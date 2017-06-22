@@ -1,0 +1,24 @@
+.form-list{
+  input,
+  textarea,
+  button,
+  select{
+    background-color: rgba(16,21,30,0.2);
+    border: 1px solid #32373c;
+    border-radius: 4px;
+  }
+  input:focus,
+  input:hover,
+  textarea:focus,
+  textarea:hover,
+  button:focus,
+  button:hover,
+  select:focus,
+  select:hover{
+    color:#fff;
+  }
+  .testarea{
+    max-width: 100%;
+    max-height: 149px;
+  }
+}

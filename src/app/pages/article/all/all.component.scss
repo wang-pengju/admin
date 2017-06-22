@@ -1,0 +1,32 @@
+.box{
+  background-color: rgba(35, 40, 45, 0.6);
+  border-top: 2px solid rgba(255, 255, 255, 0.2);
+  .table>tbody>tr>th{
+    border-top: 1px solid rgba(255, 255, 255, 0.2);
+  }
+  th,td{
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+  }
+  tr:hover{
+    background-color: transparent;
+    >td{
+      border-color: #fff;
+    }
+  }
+  .box-tools{
+    input,button{
+      background: transparent;
+      border: none;
+      border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+    }
+  }
+  .box-footer{
+    background-color: rgba(35, 40, 45, 0.6);
+    li{
+      a{
+        background: rgba(35, 40, 45, 0.6);
+        border-color: rgba(255, 255, 255, 0.2);
+      }
+    }
+  }
+}
